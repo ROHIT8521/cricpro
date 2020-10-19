@@ -1,0 +1,42 @@
+body {
+    background-image: url('./assets/background-image1.png');
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.table {
+    border: 10px solid white;
+    border-collapse: collapse;
+    margin: 10px 0;
+    background: white;
+    padding: 5px;
+    text-align: center;
+    width: 650px;
+    flex-wrap: nowrap;
+
+}
+
+#image {
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 350px;
+
+}
+
+table,
+tr,
+th,
+td {
+    border: 0.5px solid black;
+    padding: 5px;
+}
+
+#row1 {
+    background: orangered;
+    border-collapse: collapse;
+    border-spacing: 0 20px;
+    /* display: flex;
+    justify-content: space-between;  */
+}
